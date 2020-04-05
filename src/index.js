@@ -11,4 +11,4 @@ configViewEngine(app);
 initRoutes(app);
 
 let port = process.env.PORT;
-app.listen(port, () => console.log(`Chat messenger listening on port ${port}!`));
+app.listen(port, () => console.log(`Chat bot messenger is listening at port ${port}!`));
